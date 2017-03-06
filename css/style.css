@@ -1,11 +1,34 @@
 body {
-  background: pink;
+  background: #00bcd4;
 }
 
-img {
+#hero {
+  height: 500px;
+}
+
+#skills, #contact, #hero {
+  color:white;
+}
+
+.brand-logo {
+  margin-left: 15px;
+}
+.skills-icons {
+  font-size: 80px;
+}
+
+
+.proj {
   border-radius: 200px;
   border: 5px solid;
-  /* size: 200px 200px; */
   height: 200px;
   width: 200px;
   }
+
+.nav-wrapper {
+  background: #006064;
+}
+
+i {
+  padding: 10px;
+}
