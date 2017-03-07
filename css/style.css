@@ -6,6 +6,10 @@ body {
   height: 500px;
 }
 
+.profile {
+border: 10px solid white;
+}
+
 #skills, #contact, #hero {
   color:white;
 }
