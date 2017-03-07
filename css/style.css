@@ -13,10 +13,19 @@ body {
 .brand-logo {
   margin-left: 15px;
 }
-.skills-icons {
+.skills-icons, .contact-icons {
   font-size: 80px;
 }
 
+a:link, a:visited {
+   text-decoration: none;
+   color: white;
+}
+
+a:hover{
+  color: gold;
+  transition-duration: 1s;
+}
 
 .proj {
   border-radius: 200px;
@@ -25,8 +34,16 @@ body {
   width: 200px;
   }
 
-.nav-wrapper {
-  background: #006064;
+.nav-wrapper, .page-footer{
+  background: #006064!important;
+}
+
+.page-footer {
+  height: 100px!important;
+  line-height: 100px;
+  text-align: center;
+  color: white;
+  padding: 0px!important;
 }
 
 i {
