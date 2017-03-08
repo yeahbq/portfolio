@@ -2,12 +2,20 @@ body {
   background: #00bcd4;
 }
 
-#hero {
-  height: 500px;
+.side-nav {
+  background: black;
 }
+
+#hero {
+/*  height: 500px;
+*/}
 
 .profile {
 border: 10px solid white;
+border-radius: 400px;
+height: 400px;
+width: 400px!important;
+padding: 0!important;
 }
 
 #skills, #contact, #hero {
