@@ -7,15 +7,16 @@ body {
 }
 
 #hero {
-/*  height: 500px;
-*/}
+text-align: -webkit-center;
+}
 
 .profile {
 border: 10px solid white;
-border-radius: 400px;
-height: 400px;
-width: 400px!important;
+border-radius: 250px;
+height: 250px;
+width: 250px!important;
 padding: 0!important;
+float: none!important;
 }
 
 #skills, #contact, #hero {
@@ -32,6 +33,7 @@ padding: 0!important;
 a:link, a:visited {
    text-decoration: none;
    color: white;
+   transition-duration: 1s;
 }
 
 a:hover{
