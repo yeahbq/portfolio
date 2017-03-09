@@ -19,6 +19,10 @@ padding: 0!important;
 float: none!important;
 }
 
+.work {
+  padding-top: 20px;
+}
+
 #skills, #contact, #hero {
   color:white;
 }
