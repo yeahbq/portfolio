@@ -1,4 +1,3 @@
-console.log('welcome visitor! ✌️️')
 
 $( document ).ready(function(){
   $(".button-collapse").sideNav();

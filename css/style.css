@@ -22,7 +22,9 @@ body {
     }
   }
 
-
+.center-img {
+  text-align: -webkit-center;
+}
 
 .profile {
 border: 10px solid white;
