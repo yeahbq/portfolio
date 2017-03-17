@@ -37,3 +37,4 @@ $('.mystery').on('click', (evt) => {
   };
  $('.greeting').css('color',randomColor())
 })
+
