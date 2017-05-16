@@ -33,7 +33,6 @@ body {
   color: rgb(84,84,84)!important;
   font-size: 24pt;
   text-align: left;
-  padding-top: 33pt;
   padding-left: 43pt!important;
 }
 
@@ -76,8 +75,6 @@ body {
 
 .skills-div {
   margin-top: 14.5pt;
-  padding-bottom: 33pt!important;
-
 }
 
 .skills-content {
@@ -94,12 +91,15 @@ body {
   font-size: 110pt;
 }
 
-.work-div {
+#work {
+  margin-top: 19.5pt;
+}
 
+.work-div {
+  padding-right: 43pt!important;
 }
 
 .work-content {
-
 }
 
 .proj {
@@ -117,10 +117,18 @@ body {
 
 .proj-link {
   float: left;
+  padding-right: 36pt;
+  padding-bottom: 26pt;
 }
 
 .proj-title {
   font-size: 18pt;
+  color: rgb(74,74,74);
+  padding-top: 26pt;
+}
+
+.proj-desc {
+
 }
 
 
