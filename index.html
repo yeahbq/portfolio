@@ -1,161 +1,206 @@
 <!DOCTYPE html>
+
 <html>
 <head>
   <title>Barrett Quan's Portfolio</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-  <script src="https://use.fontawesome.com/756007a970.js"></script>
+  <link href="css/materialize.min.css" media="screen,projection" rel="stylesheet" type="text/css">
+  <link href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/756007a970.js">
+  </script>
   <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 </head>
+
 <body>
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Barrett Quan</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="hamburger material-icons">menu</i></a>
+      <a class="brand-logo" href="#">Barrett Quan</a> <a class="button-collapse" data-activates="mobile-demo" href="#"><i class="hamburger material-icons">menu</i></a>
+
       <ul class="right hide-on-med-and-down">
-        <li class="nav-right"><a href="#work">Work</a></li>
-        <li class="nav-right"><a href="#about">About</a></li>
-        <li class="nav-right"><a href="#contact">Contact</a></li>
+        <li class="nav-right">
+          <a href="#work">Work</a>
+        </li>
+
+
+        <li class="nav-right">
+          <a href="#about">About</a>
+        </li>
+
+
+        <li class="nav-right">
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
+
+
       <ul class="side-nav" id="mobile-demo">
-        <li><a class="nav-font" href="#about">About</a></li>
-        <li><a class="nav-font" href="#work">Work</a></li>
-        <li><a class="nav-font" href="#contact">Contact</a></li>
+        <li>
+          <a class="nav-font" href="#about">About</a>
+        </li>
+
+
+        <li>
+          <a class="nav-font" href="#work">Work</a>
+        </li>
+
+
+        <li>
+          <a class="nav-font" href="#contact">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
 
-  <div id="hero" class="white row valign-wrapper">
+
+  <div class="white row valign-wrapper" id="hero">
     <div class="container">
-        <div class="">
-          <img class="profile" src="assets/ga-headshot.jpg" alt="profile">
-          <p class="greeting name top-text"> Barrett Quan</p>
-          <p class="greeting">full stack web developer living in Los Angeles. Boba enthusiast.</p>
-        </div>
+      <div class="">
+        <img alt="profile" class="profile" src="assets/ga-headshot.jpg">
+
+        <p class="greeting name top-text">Barrett Quan</p>
+
+
+        <p class="greeting">full stack web developer living in Los Angeles. Boba enthusiast.</p>
+      </div>
     </div>
   </div>
 
-    <div class="row">
-      <div id="about" class="container">
-        <div class="col s12">
-          <p class="top-text">About</p>
-          <p class="flow-text about-div about-content">Full stack web developer (HTML, CSS, JavaScript) by choice and people person by nature transitioning from sports coach to web development. My coding skills and knowledge have been gained after daily drilling myself to complete code challenges, read documentation and work on personal projects. The challenging nature of this field combined with my personal passion for coding ignited my career change. I’ve learned to seek out and enjoy learning new frameworks and methods to efficiently solve previously difficult problems. Due to the nature of being a coach, my tendency is bringing out the strengths of team members and aiming it towards projects.</p>
-        </div>
 
-      </div>
-    </div>
+  <div class="row">
+    <div class="container" id="skills">
+      <div class="col s12 skills-div">
+        <p class="top-text">Skills</p>
 
-    <div class="row">
-      <div id="skills" class="container">
-        <div class="col s12 skills-div">
-          <p class="top-text">Skills</p>
 
-          <div class="skills-content">
-            <i class="devicon-html5-plain-wordmark skills-icons"></i>
-            <i class="devicon-css3-plain-wordmark skills-icons"></i>
-            <i class="devicon-javascript-plain skills-icons"></i>
-            <i class="devicon-heroku-original-wordmark skills-icons"></i>
-
-            <i class="devicon-nodejs-plain-wordmark skills-icons"></i>
-            <i class="devicon-react-original-wordmark skills-icons"></i>
-            <i class="devicon-github-plain skills-icons"></i>
-            <i class="devicon-mongodb-plain skills-icons"></i>
-            <br>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="row">
-      <div id="work" class="container">
-
-        <div class="col work-div">
-           <p class="work top-text">Work</p>
-            <div class="proj-content"><a class="proj-link" href="http://vpests.herokuapp.com/" title="proj 4"><img class="proj" src="assets/proj4-screenshot.png" alt="proj 4"></a>
-              <p class="proj-desc s12 m12 l6">
-                <p class="proj-title">V-PESTS (Virtual Pet Simulator)</p>
-                <p class="proj-desc"> Experience a blast from the past as you feed, train and clean up your VPESTS. Watch it grow as it can evolve after continuous interactions.
-                Sprite sheets and keyframes were the basis of the monster animations. Created within a 7 day project sprint, in the last week of my 12 week web development course.
-                </p>
-
-                <a href="https://github.com/yeahbq/project_04_vpests" title="proj 4 github"><button class="blue-grey btn">view GitHub</button></a>
-              </p>
-            </div>
-
-          <div class="proj-content clearfix">
-            <a class="proj-link" href="https://food-meets-tinder.herokuapp.com/" title="proj 3"><img class="proj" src="assets/proj3-screenshot.png" alt="proj 3"></a>
-            <p class=" s12 m12 l6">
-            <p class="proj-title">Dinder (Yelp Food Finder)</p>
-            Indecisive about where to eat tonight? Use Dinder to swipe through suggested businesses based off current location to find the right match for you. Using yelp’s api to provide the search and save results.
-            Created within a 7 day project sprint by a four member team, week 9 out of 12 of my Web Development course.
-            <br><br>
-            <a href="https://github.com/friends4eva/Food-meets-tinder" title="proj 2 github"><button class="blue-grey btn">view GitHub</button></a>
-            </p>
-          </div>
-
-          <div class="proj-content clearfix">
-            <a class="proj-link" href="https://secure-cliffs-23649.herokuapp.com/" title="proj 2"><img class="proj" src="assets/proj2-screenshot.png" alt="proj 3"></a>
-            <p class=" s12 m12 l6">
-            <p class="proj-title">Sports Roster Manager</p>
-            Enter your sports team and roster into the site, where it can then be displayed, edited and deleted. View your team’s roster in a table that neatly displays all members and updates in real time after any edits. Built in a 5 day sprint, week 5 of 12 of my Web Development Immersive course.
-            <br><br>
-            <a href="https://github.com/yeahbq/project_02_crud_app" title="proj 2 "><button class="blue-grey btn">view GitHub</button></a>
-            </p>
-
-          </div>
-
-          <div class="proj-content clearfix">
-            <a class="proj-link" href="https://yeahbq.github.io/project_01_build_a_game/" title="proj 1"><img class="proj" src="assets/proj1-screenshot.png" alt="proj 1"></a>
-              <p class=" s12 m12 l6">
-
-              <p class="proj-title"> Connect Four </p>
-              Play connect four with a friend, taking turns on a traditional 7 x 6 board.
-
-              Coded in javascript, HTML, and CSS. Winning game logic computed based off of recursive calculations of the grid in JavaScript.
-
-              Built in a 7 day sprint, week 3 of 12 of my Web Development Immersive Course.
-              <br><br>
-              <a href="https://github.com/yeahbq/project_01_build_a_game" title="proj 1 github"><button class="blue-grey btn">view GitHub</button></a>
-              </p>
-          </div>
+        <div class="skills-content">
+          <i class="devicon-html5-plain-wordmark skills-icons"></i> <i class="devicon-css3-plain-wordmark skills-icons"></i> <i class="devicon-javascript-plain skills-icons"></i> <i class="devicon-heroku-original-wordmark skills-icons"></i> <i class="devicon-nodejs-plain-wordmark skills-icons"></i> <i class="devicon-react-original-wordmark skills-icons"></i> <i class="devicon-github-plain skills-icons"></i> <i class="devicon-mongodb-plain skills-icons"></i><br>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <div class="row">
-      <div id="contact" class="container">
+  <div class="row">
+    <div class="container" id="work">
+      <div class="col work-div">
+        <p class="work top-text">Work</p>
 
-        <div class="col s12">
-          <p class="top-text">Contact Me!</p>
-          <div class="contact-content">
-            <p>Have any questions or need additional information?
-            </p>
-            <a href="mailto:21barrett@gmail.com?subject=portfolio contact"><i class="fa fa-envelope" aria-hidden="true"></i> Email Me!</a>
-            <div class="contact-icons">
-              <a class="contact-icons" href="https://github.com/yeahbq"><i class="devicon-github-plain-wordmark"></i></a>
-              <a class="contact-icons" href="https://www.linkedin.com/in/barrett-quan/"><i class="fa fa-linkedin-square"></i></a>
-            </div>
+
+        <div class="proj-content">
+          <a class="proj-link" href="http://vpests.herokuapp.com/" title="proj 4"><img alt="proj 4" class="proj" src="assets/proj4-screenshot.png"></a>
+
+          <p class="proj-desc s12 m12 l6">
+          </p>
+
+
+          <p class="proj-title">V-PESTS (Virtual Pet Simulator)</p>
+
+
+          <p class="proj-desc">Experience a blast from the past as you feed, train and clean up your VPESTS. Watch it grow as it can evolve after continuous interactions. Sprite sheets and keyframes were the basis of the monster animations. Created within a 7 day project sprint, in the last week of my 12 week web development course.</p>
+          <a href="https://github.com/yeahbq/project_04_vpests" title="proj 4 github"><button class="blue-grey btn">view GitHub</button></a>
+
+          <p>
+          </p>
+        </div>
+
+
+        <div class="proj-content clearfix">
+          <a class="proj-link" href="https://food-meets-tinder.herokuapp.com/" title="proj 3"><img alt="proj 3" class="proj" src="assets/proj3-screenshot.png"></a>
+
+          <p class=" s12 m12 l6">
+          </p>
+
+
+          <p class="proj-title">Dinder (Yelp Food Finder)</p>
+          Indecisive about where to eat tonight? Use Dinder to swipe through suggested businesses based off current location to find the right match for you. Using yelp’s api to provide the search and save results. Created within a 7 day project sprint by a four member team, week 9 out of 12 of my Web Development course.<br>
+          <br>
+          <a href="https://github.com/friends4eva/Food-meets-tinder" title="proj 2 github"><button class="blue-grey btn">view GitHub</button></a>
+
+          <p>
+          </p>
+        </div>
+
+
+        <div class="proj-content clearfix">
+          <a class="proj-link" href="https://secure-cliffs-23649.herokuapp.com/" title="proj 2"><img alt="proj 3" class="proj" src="assets/proj2-screenshot.png"></a>
+
+          <p class=" s12 m12 l6">
+          </p>
+
+
+          <p class="proj-title">Sports Roster Manager</p>
+          Enter your sports team and roster into the site, where it can then be displayed, edited and deleted. View your team’s roster in a table that neatly displays all members and updates in real time after any edits. Built in a 5 day sprint, week 5 of 12 of my Web Development Immersive course.<br>
+          <br>
+          <a href="https://github.com/yeahbq/project_02_crud_app" title="proj 2 "><button class="blue-grey btn">view GitHub</button></a>
+
+          <p>
+          </p>
+        </div>
+
+
+        <div class="proj-content clearfix">
+          <a class="proj-link" href="https://yeahbq.github.io/project_01_build_a_game/" title="proj 1"><img alt="proj 1" class="proj" src="assets/proj1-screenshot.png"></a>
+
+          <p class=" s12 m12 l6">
+          </p>
+
+
+          <p class="proj-title">Connect Four</p>
+          Play connect four with a friend, taking turns on a traditional 7 x 6 board. Coded in javascript, HTML, and CSS. Winning game logic computed based off of recursive calculations of the grid in JavaScript. Built in a 7 day sprint, week 3 of 12 of my Web Development Immersive Course.<br>
+          <br>
+          <a href="https://github.com/yeahbq/project_01_build_a_game" title="proj 1 github"><button class="blue-grey btn">view GitHub</button></a>
+
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="container" id="about">
+      <div class="col s12">
+        <p class="top-text">About</p>
+
+
+        <p class="flow-text about-div about-content">Full stack web developer (HTML, CSS, JavaScript) by choice and people person by nature transitioning from sports coach to web development. My coding skills and knowledge have been gained after daily drilling myself to complete code challenges, read documentation and work on personal projects. The challenging nature of this field combined with my personal passion for coding ignited my career change. I’ve learned to seek out and enjoy learning new frameworks and methods to efficiently solve previously difficult problems. Due to the nature of being a coach, my tendency is bringing out the strengths of team members and aiming it towards projects.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="container" id="contact">
+      <div class="col s12">
+        <p class="top-text">Contact Me!</p>
+
+
+        <div class="contact-content">
+          <p>Have any questions or need additional information?</p>
+          <a href="mailto:21barrett@gmail.com?subject=portfolio%20contact"><i aria-hidden="true" class="fa fa-envelope"></i> Email Me!</a>
+
+          <div class="contact-icons">
+            <a class="contact-icons" href="https://github.com/yeahbq"><i class="devicon-github-plain-wordmark"></i></a> <a class="contact-icons" href="https://www.linkedin.com/in/barrett-quan/"><i class="fa fa-linkedin-square"></i></a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <footer class="page-footer valign-wrapper">
-        <div class="container">
-          © 2017 Barrett Quan
-          <a class="grey-text text-lighten-4 right" href="#">Top</a>
-        </div>
-    </footer>
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script src="js/main.js"></script>
+  <footer class="page-footer valign-wrapper">
+    <div class="container">
+      © 2017 Barrett Quan <a class="grey-text text-lighten-4 right" href="#">Top</a>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript">
+  </script>
+  <script src="js/materialize.min.js" type="text/javascript">
+  </script>
+  <script src="js/main.js">
+  </script>
 </body>
 </html>
