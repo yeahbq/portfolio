@@ -111,34 +111,24 @@ body {
 
   }
 
-.projteste {
+.proj-content {
+
+}
+
+.proj-link {
   float: left;
 }
 
-  .proj-title {
-    font-size: 18pt;
-  }
-
-.center-img {
-  text-align: -webkit-center;
+.proj-title {
+  font-size: 18pt;
 }
 
-/*.row {
-  background: grey;
-}*/
 
 .col {
   border: 2px solid rgb(222,223,225);
   border-radius: 10px;
   background: white;
 }
-
-/*.intro {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}*/
-
-
 
 a:link, a:visited {
    text-decoration: none;
