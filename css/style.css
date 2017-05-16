@@ -37,7 +37,11 @@ body {
 }
 
 .side-nav {
-  background: black;
+  background: #F8F8F8;
+}
+
+.nav-font {
+  color: rgb(84,84,84)!important;
 }
 
 #hero {
@@ -167,5 +171,9 @@ footer, .page-footer {
   text-align: center;
   color: white;
   padding: 0px!important;
+}
+
+.hamburger {
+  color: white;
 }
 
