@@ -69,6 +69,7 @@ body {
 .about-content {
   margin-top: 27pt;
   padding-left: 43pt!important;
+  padding-right: 43pt;
   line-height: 40pt;
   padding-bottom: 34pt!important;
 }
