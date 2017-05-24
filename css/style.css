@@ -186,6 +186,13 @@ footer, .page-footer {
     margin-left: 10px;
     font-size: 20pt!important;
   }
+  #hero {height: 100%;
+    padding: 43pt;
+  }
+  .profile {width: 250px!important;
+    border-radius: 250px!important;
+    margin-bottom: 20pt;
+  }
   .work-div {
     padding-left: 43pt!important;
     padding-bottom: 33pt!important;
