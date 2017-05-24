@@ -178,3 +178,40 @@ footer, .page-footer {
   color: white;
 }
 
+/*Mobile Media Query Screen Breaks*/
+@media screen and (max-width: 600px) {
+  .hamburger {margin-top: 10pt;}
+  .brand-logo {
+    margin-top: 5pt;
+    margin-left: 10px;
+    font-size: 20pt!important;
+  }
+  .work-div {
+    padding-left: 43pt!important;
+    padding-bottom: 33pt!important;
+    }
+  .top-text {padding-left: 0px!important;}
+  .skills-div {padding-left: 43pt!important;}
+  .skills-icons {padding-left: 0px!important;}
+  .proj {margin-top: 15pt!important;
+    margin-left: 0px!important;
+  }
+  .about-div {
+    padding-left: 43pt!important;
+  }
+  .about-content {padding-left: 0px!important;
+    font-size: 12pt;
+    line-height: 30pt!important;
+    margin-top: 0px!important;
+  }
+  .contact-div {padding-left: 43pt!important;}
+  .contact-content {margin: 0px!important;}
+  .contact-icons {float: left;
+    padding-left: 22pt!important;}
+  .footer-content {
+    display: inline;
+    float: left;
+  }
+
+}
+
