@@ -204,8 +204,11 @@ footer, .page-footer {
     padding-left: 43pt!important;
     padding-bottom: 33pt!important;
     }
-  .top-text {padding-left: 0px!important;}
-  .skills-div {padding-left: 43pt!important;}
+
+  p.work.top-text {
+    padding-left: 0px!important;
+  }
+  .top-text {padding-left: 43px!important;}
   .skills-icons {margin: auto;
     display: block;}
   .proj {
@@ -213,16 +216,14 @@ footer, .page-footer {
     display: block;
   }
   .proj-link {float: none;}
-  .about-div {
-    padding-left: 43pt!important;
-  }
-  .about-content {padding-left: 0px!important;
+  .about-content {padding-left: 43px!important;
     font-size: 12pt;
     line-height: 30pt!important;
     margin-top: 0px!important;
   }
-  .contact-div {padding-left: 43pt!important;}
   .contact-content {margin: 0px!important;}
+  .contact-content>p {padding-left: 43px!important;}
+  .contact-content>a {padding-left: 43px!important;}
   .contact-icons {    margin: auto;
     display: block;
     width: 40%;}
