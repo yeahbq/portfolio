@@ -205,6 +205,20 @@ footer, .page-footer {
     padding-bottom: 33pt!important;
     }
 
+  .blue-grey {
+    margin: auto;
+    display: block;
+    width: 40%;
+  }
+
+  p.proj-title {
+    text-align: center;
+  }
+
+  .proj-content {
+    padding-bottom: 20pt;
+  }
+
   p.work.top-text {
     padding-left: 0px!important;
   }
