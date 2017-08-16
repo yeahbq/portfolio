@@ -10,4 +10,4 @@
 
 ![](/mockup1.png)
 
-![](/mockup2.png)
+![](/mockup2.jpg)
