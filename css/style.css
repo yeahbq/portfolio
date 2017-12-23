@@ -80,20 +80,23 @@ body {
 
 .skills-div {
   margin-top: 14.5pt;
+  padding-bottom: 5% !important;
 }
 
 .skills-content {
-  padding-right: 43pt!important;
-  padding-left: 43pt!important;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-right: 43pt;
+  padding-left: 43pt;
 }
 
 .skills-icons {
-  float: left;
-  padding: 42pt;
+  margin: 8%;
 }
 
-.skills-icons, .contact-icons {
-  font-size: 110pt;
+.skills-icons {
+  font-size: 67pt;
 }
 
 #work {
@@ -116,8 +119,18 @@ body {
 
   }
 
+.proj-content img {
+  box-shadow: 0 2px 14px 0 rgba(224,224,224,0.5);
+}
 .proj-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
 
+.proj-desc-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .proj-link {
@@ -129,7 +142,10 @@ body {
 .proj-title {
   font-size: 18pt;
   color: rgb(74,74,74);
-  padding-top: 26pt;
+}
+
+.proj-title {
+  margin: 0;
 }
 
 .col {
@@ -142,15 +158,24 @@ body {
   margin-top: 19.5pt;
 }
 
+.contact-div {
+  padding-bottom: 5%!important;
+}
+
 .contact-content {
   margin-right: 43pt;
   margin-left: 43pt;
 }
 
 .contact-icons {
-  margin-top: 23pt;
-  margin-right: 42pt;
-}µ
+  font-size: 30pt;
+  color: white;
+}
+
+.contact-icons-container {
+  display: flex;
+  justify-content:
+}
 
 a:hover{
   color: gold;
@@ -167,8 +192,16 @@ footer, .page-footer {
   background:linear-gradient(to right, rgb(0,188,214), rgba(13,149,156,0.54) )!important;
 }
 
+.footer-icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons-container i {
+  padding: 10pt;
+}
+
 .page-footer {
-  height: 62pt;
   text-align: center;
   color: white;
   padding: 0px!important;
@@ -182,6 +215,18 @@ footer, .page-footer {
 
 .hamburger {
   color: white;
+}
+
+/*tablet media query*/
+@media screen and (max-width: 1000px) {
+
+  .skills-content {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .skills-icons {
+    font-size: 45pt;
+  }
 }
 
 /*Mobile Media Query Screen Breaks*/
@@ -223,24 +268,33 @@ footer, .page-footer {
 
   .proj-content {
     padding-bottom: 20pt;
+    flex-direction: column;
   }
 
   p.work.top-text {
     padding-left: 0px!important;
   }
-  .top-text {padding-left: 43px!important;}
-  .skills-icons {margin: auto;
-    display: block;}
+  .top-text {
+    padding-left: 43px!important;
+  }
+
+  .skills-icons {
+      font-size: 25pt;
+    }
+
   .proj {
     margin: auto;
     display: block;
   }
+
   .proj-link {float: none;}
+
   .about-content {padding-left: 43px!important;
     font-size: 12pt;
     line-height: 30pt!important;
     margin-top: 0px!important;
   }
+
   .contact-content {margin: 0px!important;}
   .contact-content>p {padding-left: 43px!important;}
   .contact-content>a {padding-left: 43px!important;}
