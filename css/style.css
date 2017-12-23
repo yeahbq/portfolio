@@ -44,16 +44,25 @@ body {
   color: rgb(84,84,84)!important;
 }
 
+.welcome-container {
+  display: flex;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+}
+
 #hero {
   height: 247pt;
 }
 
 .profile {
   border: 1px solid white!important;
-  border-radius: 136px!important;
-  width: 136px!important;
-  float: left;
-  margin-right: 30pt;
+  border-radius: 50%;
+  height: 136px;
 }
 
 .greeting {
@@ -64,6 +73,7 @@ body {
 
 .name {
   font-size: 36pt;
+  color: rgb(84,84,84);
 }
 
 .about-content {
@@ -237,19 +247,30 @@ footer, .page-footer {
     margin-left: 10px;
     font-size: 20pt!important;
   }
-  #hero {height: 100%;
+  #hero {
+    height: 100%;
     padding: 43pt;
     text-align: center;
   }
   .greeting {
     text-align: center;
   }
-  .profile {width: 250px!important;
-    border-radius: 250px!important;
-    margin-bottom: 25pt!important;
-    margin: auto;
-    float: none;
-    display: block;
+  .profile {
+    width: 136px;
+  }
+
+  .welcome-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .welcome-content {
+    margin-left: 0;
+    margin-top: 5%;
+  }
+
+  .name {
+    font-size: 30pt;
   }
   .work-div {
     padding-left: 43pt!important;
