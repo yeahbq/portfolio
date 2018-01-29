@@ -42,6 +42,7 @@ body {
 
 .row .col.s12 {
   padding: 5%;
+  margin-top: 5%;
 }
 
 .side-nav {
@@ -258,6 +259,7 @@ footer, .page-footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 0;
   }
 
   .brand-logo {
