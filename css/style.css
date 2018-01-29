@@ -37,11 +37,19 @@ body {
   color: rgb(84,84,84)!important;
   font-size: 24pt;
   text-align: left;
-  padding-left: 43pt!important;
+  margin: 0;
+}
+
+.row .col.s12 {
+  padding: 5%;
 }
 
 .side-nav {
   background: #F8F8F8;
+}
+
+.side-nav a {
+  color: rgb(84,84,84);
 }
 
 .nav-font {
@@ -82,10 +90,7 @@ body {
 
 .about-content {
   margin-top: 27pt;
-  padding-left: 43pt!important;
-  padding-right: 43pt;
   line-height: 40pt;
-  padding-bottom: 34pt!important;
 }
 
 .about-div {
@@ -101,8 +106,6 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-right: 43pt;
-  padding-left: 43pt;
 }
 
 .skills-icons {
@@ -128,7 +131,7 @@ body {
 }
 
 .freelance-desc-container {
-  margin: 0 5%;
+  margin: 2.5% 5%;
 }
 
 #work {
@@ -141,17 +144,15 @@ body {
   border: 1pt solid #eeeeee;
   height: 181pt;
   width: 181pt;
-  margin-left: 43pt;
-
   }
 
 .proj-content img {
   box-shadow: 0 2px 14px 0 rgba(224,224,224,0.5);
 }
 .proj-content {
+  margin-top: 5%;
   display: flex;
   justify-content: center;
-  margin-bottom: 5%;
 }
 
 .proj-desc-container {
@@ -162,7 +163,6 @@ body {
 .proj-link {
   float: left;
   padding-right: 36pt;
-  padding-bottom: 26pt;
 }
 
 .proj-title {
@@ -190,11 +190,6 @@ div.proj-desc-container > a {
 
 .contact-div {
   padding-bottom: 5%!important;
-}
-
-.contact-content {
-  margin-right: 43pt;
-  margin-left: 43pt;
 }
 
 .contact-icons {
@@ -296,6 +291,10 @@ footer, .page-footer {
     font-size: 30pt;
   }
 
+  .freelance-padding {
+    padding: 0;
+  }
+
   div.proj-desc-container > a {
     margin: 5% 0%;
   }
@@ -318,13 +317,6 @@ footer, .page-footer {
     flex-direction: column;
   }
 
-  p.work.top-text {
-    padding-left: 0px!important;
-  }
-  .top-text {
-    padding-left: 43px!important;
-  }
-
   .skills-icons {
       font-size: 25pt;
     }
@@ -334,20 +326,24 @@ footer, .page-footer {
     display: block;
   }
 
-  .proj-link {float: none;}
+  .proj-link {
+    float: none;
+  }
 
-  .about-content {padding-left: 43px!important;
+  .about-content {
     font-size: 12pt;
     line-height: 30pt!important;
     margin-top: 0px!important;
   }
 
-  .contact-content {margin: 0px!important;}
-  .contact-content>p {padding-left: 43px!important;}
-  .contact-content>a {padding-left: 43px!important;}
-  .contact-icons {    margin: auto;
+  .contact-content {
+    margin: 0px!important;
+  }
+
+  .contact-icons {
+    margin: auto;
     display: block;
-    width: 40%;}
+    width: 40%;
+  }
 
 }
-
