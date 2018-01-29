@@ -8,6 +8,10 @@ nav {
   text-transform: uppercase;
 }
 
+a {
+  color:#71BFCE;
+}
+
 .brand-logo {
   letter-spacing: 5pt;
   font-size: 24pt!important;
@@ -109,20 +113,32 @@ body {
   font-size: 67pt;
 }
 
+.freelance-content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.freelance-link > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8pt;
+  border: 1pt solid #eeeeee;
+}
+
+.freelance-desc-container {
+  margin: 0 5%;
+}
+
 #work {
   margin-top: 19.5pt;
 }
 
-.work-div {
-  padding-right: 43pt!important;
-}
-
-.work-content {
-}
 
 .proj {
   border-radius: 8pt;
-  border: 1pt solid rgb(151,151,151);
+  border: 1pt solid #eeeeee;
   height: 181pt;
   width: 181pt;
   margin-left: 43pt;
@@ -154,8 +170,12 @@ body {
   color: rgb(74,74,74);
 }
 
-.proj-title {
+.proj-title , .proj-desc{
   margin: 0;
+}
+
+div.proj-desc-container > a {
+  margin: 3% 0%;
 }
 
 .col {
@@ -184,14 +204,7 @@ body {
 
 .contact-icons-container {
   display: flex;
-  justify-content:
 }
-
-a:hover{
-  color: gold;
-  transition-duration: 1s;
-}
-
 
 i {
   color: rgb(0, 188, 214);
@@ -219,7 +232,6 @@ footer, .page-footer {
 
 .footer-content {
   display: inline;
-  float: left;
   padding-left: 43pt;
 }
 
@@ -241,7 +253,18 @@ footer, .page-footer {
 
 /*Mobile Media Query Screen Breaks*/
 @media screen and (max-width: 600px) {
-  .hamburger {margin-top: 10pt;}
+
+  .hamburger {
+    margin-top: 10pt;
+  }
+
+  .row .col.s12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .brand-logo {
     margin-top: 5pt;
     margin-left: 10px;
@@ -272,15 +295,19 @@ footer, .page-footer {
   .name {
     font-size: 30pt;
   }
-  .work-div {
-    padding-left: 43pt!important;
-    padding-bottom: 33pt!important;
-    }
+
+  div.proj-desc-container > a {
+    margin: 5% 0%;
+  }
+
+  div.proj-desc-container > a > button {
+    margin: auto;
+  }
 
   .blue-grey {
-    margin: auto;
     display: block;
     width: 40%;
+    align-self:center; 
   }
 
   p.proj-title {
@@ -288,7 +315,6 @@ footer, .page-footer {
   }
 
   .proj-content {
-    padding-bottom: 20pt;
     flex-direction: column;
   }
 
