@@ -171,6 +171,11 @@ body {
   color: rgb(74,74,74);
 }
 
+.proj-title > a {
+  color: rgb(74,74,74);
+  text-decoration: underline;
+}
+
 .proj-title , .proj-desc{
   margin: 0;
 }
